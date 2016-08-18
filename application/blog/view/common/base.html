@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Kyln blog">
+	<meta name="author" content="">
+	<link rel="stylesheet" type="text/css" href="http://ww3.sinaimg.cn/large/005yEbTbgw1f6y580juxcj30dw0cdjtq.jpg">
+	<title>Kylin blog</title>
+	<link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Blog/public/static/index/css/uikit.gradient.min.css">
+	
+	<!-- css区 -->
+	{block name="css"}{/block}
+
+</head>
+<body>
+<!-- 导航 -->
+{block name="nav"}
+
+<div class="uk-container uk-container-center uk-margin-top uk-margin-large-botom">
+	<nav class="uk-navbar uk-margin-large-bottom">
+                <a class="uk-navbar-brand uk-hidden-small" href="index.html">Brand</a>
+                <ul class="uk-navbar-nav uk-hidden-small">
+
+                    <li >
+                        <a href="index.html">首页</a>
+                    </li>
+
+                    <li>
+                        <a href="photoAlbum.html">相册</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html">博客</a>
+                    </li>
+                  
+                    <li>
+                        <a href="contact.html">联系</a>
+                    </li>
+
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+
+                </ul>
+                <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
+        </nav>
+    <!-- 内容区 -->
+
+    {block name="main"}{/block}
+</div>
+{/block}
+
+
+
+{block name="footer"}
+	<footer  style="padding: 40px 0;color: #999;text-align: center;background-color: #f9f9f9;border-top: 1px solid #e5e5e5;">
+	    <p>
+	        <a href="http://www.walk-code.com/">kylin webside</a>
+	    </p>
+	    <p>way to explore</p>
+	</footer>
+{/block}
+
+
+<!-- javascript -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="/Blog/public/static/index/js/uikit.min.js"></script>
+
+
+<!-- js区 -->
+{block name="script"}{/block}
+
+</body>
+</html>
